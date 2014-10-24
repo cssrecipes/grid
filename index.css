@@ -1,0 +1,21 @@
+:root {
+  --rcp-Grid-baseFontSize: 1rem;
+  --rcp-Grid-baseFontSizeFallback: 16px;
+  --rcp-Grid-gutter: 0;
+}
+
+@import "./node_modules/cssrecipes-custom-media-queries/index.css";
+
+@import "./lib/grid.css";
+
+@import "./lib/sizes-all.css";
+
+@import "./lib/sizes-max-xlarge.css";
+@import "./lib/sizes-max-large.css";
+@import "./lib/sizes-max-medium.css";
+@import "./lib/sizes-max-small.css";
+
+@import "./lib/sizes-min-small.css";
+@import "./lib/sizes-min-medium.css";
+@import "./lib/sizes-min-large.css";
+@import "./lib/sizes-min-xlarge.css";
