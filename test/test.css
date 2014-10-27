@@ -10,25 +10,25 @@ html {
   box-sizing: inherit;
 }
 
-.rcp-Grid {
+.cssr-Grid {
   width: auto;
   margin: 0 auto;
 }
 
-  @media (--viewport-min-s) {
-  	.rcp-Grid {
+  @media (--cssr-minS) {
+  	.cssr-Grid {
       width: 30rem;
     }
   }
 
-  @media (--viewport-min-m) {
-  	.rcp-Grid {
+  @media (--cssr-minM) {
+  	.cssr-Grid {
       width: 50rem;
     }
   }
 
 
-.rcp-Grid-cell {
+.cssr-Grid-cell {
   border: 1px solid red;
   background: #f0f0f0;
 }

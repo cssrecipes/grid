@@ -1,7 +1,7 @@
 {
   "name": "cssrecipes-grid",
   "version": "0.1.0",
-  "description": "The ultimate grid utility",
+  "description": "BEMish grid component",
   "main": "index.js",
    "keywords": [
     "browser",
@@ -33,7 +33,7 @@
   },
   "homepage": "https://github.com/cssrecipes/grid",
   "dependencies": {
-    "cssrecipes-custom-media-queries": "^0.1.0"
+    "cssrecipes-custom-media-queries": "^0.2.0"
   },
   "devDependencies": {
     "cssnext": "^0.4.0"

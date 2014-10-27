@@ -1,7 +1,7 @@
 :root {
-  --rcp-Grid-baseFontSize: 1rem;
-  --rcp-Grid-baseFontSizeFallback: 16px;
-  --rcp-Grid-gutter: 0;
+  --cssr-Grid-baseFontSize: 1rem;
+  --cssr-Grid-baseFontSizeFallback: 16px;
+  --cssr-Grid-gutter: 0;
 }
 
 @import "./node_modules/cssrecipes-custom-media-queries/index.css";
@@ -10,12 +10,12 @@
 
 @import "./lib/sizes-all.css";
 
-@import "./lib/sizes-max-xlarge.css";
-@import "./lib/sizes-max-large.css";
-@import "./lib/sizes-max-medium.css";
-@import "./lib/sizes-max-small.css";
+@import "./lib/sizes-maxXL.css";
+@import "./lib/sizes-maxL.css";
+@import "./lib/sizes-maxM.css";
+@import "./lib/sizes-maxS.css";
 
-@import "./lib/sizes-min-small.css";
-@import "./lib/sizes-min-medium.css";
-@import "./lib/sizes-min-large.css";
-@import "./lib/sizes-min-xlarge.css";
+@import "./lib/sizes-minS.css";
+@import "./lib/sizes-minM.css";
+@import "./lib/sizes-minL.css";
+@import "./lib/sizes-minXL.css";

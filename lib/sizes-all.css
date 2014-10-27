@@ -1,110 +1,110 @@
-.rcp-all--1of12 {
+.cssr-all--1of12 {
   width: calc(100% * 1 / 12);
 }
 
-.rcp-all--1of10 {
+.cssr-all--1of10 {
   width: 10%;
 }
 
-.rcp-all--1of8 {
+.cssr-all--1of8 {
   width: 12.5%;
 }
 
-.rcp-all--1of6,
-.rcp-all--2of12 {
+.cssr-all--1of6,
+.cssr-all--2of12 {
   width: calc(100% * 1 / 6);
 }
 
-.rcp-all--1of5,
-.rcp-all--2of10 {
+.cssr-all--1of5,
+.cssr-all--2of10 {
   width: 20%;
 }
 
-.rcp-all--1of4,
-.rcp-all--2of8,
-.rcp-all--3of12 {
+.cssr-all--1of4,
+.cssr-all--2of8,
+.cssr-all--3of12 {
   width: 25%;
 }
 
-.rcp-all--3of10 {
+.cssr-all--3of10 {
   width: 30%;
 }
 
-.rcp-all--1of3,
-.rcp-all--2of6,
-.rcp-all--4of12 {
+.cssr-all--1of3,
+.cssr-all--2of6,
+.cssr-all--4of12 {
   width: calc(100% * 1 / 3);
 }
 
-.rcp-all--3of8 {
+.cssr-all--3of8 {
   width: 37.5%;
 }
 
-.rcp-all--2of5,
-.rcp-all--4of10 {
+.cssr-all--2of5,
+.cssr-all--4of10 {
   width: 40%;
 }
 
-.rcp-all--5of12 {
+.cssr-all--5of12 {
   width: calc(100% * 5 / 12);
 }
 
-.rcp-all--1of2,
-.rcp-all--2of4,
-.rcp-all--3of6,
-.rcp-all--4of8,
-.rcp-all--5of10,
-.rcp-all--6of12 {
+.cssr-all--1of2,
+.cssr-all--2of4,
+.cssr-all--3of6,
+.cssr-all--4of8,
+.cssr-all--5of10,
+.cssr-all--6of12 {
   width: 50%;
 }
 
-.rcp-all--7of12 {
+.cssr-all--7of12 {
   width: calc(100% * 7 / 12);
 }
 
-.rcp-all--3of5,
-.rcp-all--6of10 {
+.cssr-all--3of5,
+.cssr-all--6of10 {
   width: 60%;
 }
 
-.rcp-all--5of8 {
+.cssr-all--5of8 {
   width: 62.5%;
 }
 
-.rcp-all--2of3,
-.rcp-all--4of6,
-.rcp-all--8of12 {
+.cssr-all--2of3,
+.cssr-all--4of6,
+.cssr-all--8of12 {
   width: calc(100% * 2 / 3);
 }
 
-.rcp-all--7of10 {
+.cssr-all--7of10 {
   width: 70%;
 }
 
-.rcp-all--3of4,
-.rcp-all--6of8,
-.rcp-all--9of12 {
+.cssr-all--3of4,
+.cssr-all--6of8,
+.cssr-all--9of12 {
   width: 75%;
 }
 
-.rcp-all--4of5,
-.rcp-all--8of10 {
+.cssr-all--4of5,
+.cssr-all--8of10 {
   width: 80%;
 }
 
-.rcp-all--5of6,
-.rcp-all--10of12 {
+.cssr-all--5of6,
+.cssr-all--10of12 {
   width: calc(100% * 5 / 6);
 }
 
-.rcp-all--7of8 {
+.cssr-all--7of8 {
   width: 87.5%;
 }
 
-.rcp-all--9of10 {
+.cssr-all--9of10 {
   width: 90%;
 }
 
-.rcp-all--11of12 {
+.cssr-all--11of12 {
   width: calc(100% * 11 / 12);
 }

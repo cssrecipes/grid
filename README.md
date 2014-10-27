@@ -1,6 +1,6 @@
 # grid
 
-> The ultimate grid utility
+> BEMish grid component
 
 ## Install
 
@@ -12,21 +12,21 @@ $ npm install cssrecipes-grid
 
 ### Mobile-first
 
-### Define your `Grid` size
+#### Define your `Grid` size
 
 ```css
-.rcp-Grid {
+.cssr-Grid {
   width: auto;
 }
 
-@media (--viewport-min-m) {
-  .rcp-Grid {
+@media (--cssr-minM) {
+  .cssr-Grid {
     width: 30em;
   }
 }
 
-@media (--viewport-min-l) {
-  .rcp-Grid {
+@media (--cssr-minL) {
+  .cssr-Grid {
     width: 50em;
   }
 }
@@ -34,14 +34,14 @@ $ npm install cssrecipes-grid
 /** and the rest of it */
 ```
 
-### Use your grid
+#### Use your grid
 
 ```html
-<div class="rcp-Grid">
-  <div class="rcp-Grid-cell rcp-all-1of2 rcp-minM-1of3 rcp-minL-1of4">
+<div class="cssr-Grid">
+  <div class="cssr-Grid-cell cssr-all-1of2 cssr-minM-1of3 cssr-minL-1of4">
     <!-- come content-->
   </div>
-  <div class="rcp-Grid-cell rcp-all-1of2 rcp-minM-2of3 rcp-minL-3of4">
+  <div class="cssr-Grid-cell cssr-all-1of2 cssr-minM-2of3 cssr-minL-3of4">
     <!-- come content-->
   </div>
 </div>
@@ -49,21 +49,21 @@ $ npm install cssrecipes-grid
 
 ### Desktop-first
 
-### Define your `Grid` size
+#### Define your `Grid` size
 
 ```css
-.rcp-Grid {
+.cssr-Grid {
   width: auto;
 }
 
-@media (--viewport-max-l) {
-  .rcp-Grid {
+@media (--cssr-maxL) {
+  .cssr-Grid {
     width: 50em;
   }
 }
 
-@media (--viewport-min-m) {
-  .rcp-Grid {
+@media (--cssr-minM) {
+  .cssr-Grid {
     width: 30em;
   }
 }
@@ -71,14 +71,14 @@ $ npm install cssrecipes-grid
 /** and the rest of it */
 ```
 
-### Use your grid
+#### Use your grid
 
 ```html
-<div class="rcp-Grid">
-  <div class="rcp-Grid-cell rcp-all-1of4 rcp-maxL-1of3 rcp-maxM-1of2">
+<div class="cssr-Grid">
+  <div class="cssr-Grid-cell cssr-all-1of4 cssr-maxL-1of3 cssr-maxM-1of2">
     <!-- come content-->
   </div>
-  <div class="rcp-Grid-cell rcp-all-3of4 rcp-maxL-2of3 rcp-maxM-1of2">
+  <div class="cssr-Grid-cell cssr-all-3of4 cssr-maxL-2of3 cssr-maxM-1of2">
     <!-- come content-->
   </div>
 </div>
@@ -86,49 +86,48 @@ $ npm install cssrecipes-grid
 
 ### Without responsive
 
-### Define your `Grid` size
+#### Define your `Grid` size
 
 ```css
-.rcp-Grid {
+.cssr-Grid {
   width: 50em;
 }
 ```
 
-### Use your grid
+#### Use your grid
 
 ```html
-<div class="rcp-Grid">
-  <div class="rcp-Grid-cell rcp-all-1of4">
+<div class="cssr-Grid">
+  <div class="cssr-Grid-cell cssr-all-1of4">
     <!-- come content-->
   </div>
-  <div class="rcp-Grid-cell rcp-all-3of4">
+  <div class="cssr-Grid-cell cssr-all-3of4">
     <!-- come content-->
   </div>
 </div>
 ```
 
-## sizing prefixes
-
+## Sizing prefixes
 
 ### default size
 
-- `rcp-all-XofY`
+- `cssr-all-XofY`
 
 ### mobile-first
 
-- `rcp-minS-XofY`
-- `rcp-minM-XofY`
-- `rcp-minL-XofY`
-- `rcp-minXL-XofY`
+- `cssr-minS-XofY`
+- `cssr-minM-XofY`
+- `cssr-minL-XofY`
+- `cssr-minXL-XofY`
 
 ### desktop-first
 
-- `rcp-maxS-XofY`
-- `rcp-maxM-XofY`
-- `rcp-maxL-XofY`
-- `rcp-maxXL-XofY`
+- `cssr-maxS-XofY`
+- `cssr-maxM-XofY`
+- `cssr-maxL-XofY`
+- `cssr-maxXL-XofY`
 
-## available sizing
+## Available sizing
 
 ### 2-columns grid
 
@@ -208,27 +207,30 @@ $ npm install cssrecipes-grid
 
 ## Testing
 
-_Requires [nodejs](http://nodejs.org)_
-
 To generate a build:
 
-	npm run build
+```sh
+$ npm run build
+```
 
 To generate the testing build.
 
-	$ npm run build-test
+```sh
+$ npm run build-test
+```
 
 Basic visual tests are in `test/index.html`.
-
 
 ## Contributing
 
 Work on a branch, install dev-dependencies, respect coding style & run tests before submitting a bug fix or a feature.
 
-    $ git clone https://github.com/cssrecipes/grid.git
-    $ git checkout -b patch-1
-    $ npm install
-    $ npm test
+```sh
+$ git clone https://github.com/cssrecipes/grid.git
+$ git checkout -b patch-1
+$ npm install
+$ npm test
+```
 
 ## [Changelog](CHANGELOG.md)
 
