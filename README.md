@@ -10,7 +10,7 @@ $ npm install cssrecipes-grid
 
 ## Usage
 
-You can use [`cssrecipes-sizes`](http://github.com/cssrecipes/sizes) for
+You can use size utilities from [`cssrecipes-utils`](http://github.com/cssrecipes/utils) for
 convenience.
 
 ### Mobile-first
