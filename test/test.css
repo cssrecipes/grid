@@ -10,23 +10,6 @@ html {
   box-sizing: inherit;
 }
 
-.cssr-Grid {
-  width: auto;
-  margin: 0 auto;
-}
-
-  @media (--cssr-minS) {
-  	.cssr-Grid {
-      width: 30rem;
-    }
-  }
-
-  @media (--cssr-minM) {
-  	.cssr-Grid {
-      width: 50rem;
-    }
-  }
-
 
 .cssr-Grid-cell {
   border: 1px solid red;
