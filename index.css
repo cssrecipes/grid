@@ -4,18 +4,4 @@
   --cssr-Grid-gutter: 0;
 }
 
-@import "./node_modules/cssrecipes-custom-media-queries/index.css";
-
 @import "./lib/grid.css";
-
-@import "./lib/sizes-all.css";
-
-@import "./lib/sizes-maxXL.css";
-@import "./lib/sizes-maxL.css";
-@import "./lib/sizes-maxM.css";
-@import "./lib/sizes-maxS.css";
-
-@import "./lib/sizes-minS.css";
-@import "./lib/sizes-minM.css";
-@import "./lib/sizes-minL.css";
-@import "./lib/sizes-minXL.css";

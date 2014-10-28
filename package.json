@@ -1,6 +1,6 @@
 {
   "name": "cssrecipes-grid",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "BEMish grid component",
   "main": "index.js",
    "keywords": [
@@ -32,9 +32,6 @@
     "url": "https://github.com/cssrecipes/grid/issues"
   },
   "homepage": "https://github.com/cssrecipes/grid",
-  "dependencies": {
-    "cssrecipes-custom-media-queries": "^0.2.0"
-  },
   "devDependencies": {
     "cssnext": "^0.4.0"
   }
