@@ -12,6 +12,9 @@ $ npm install cssrecipes-grid
 @import "./node_modules/cssrecipes-grid/index.css";
 ```
 
+_Advice: you can use size utilities from [`cssrecipes-utils`](http://github.com/cssrecipes/utils) for convenience.  
+It includes `.cssr-(all|min|max)*` classes used in the examples below to define grid cells width._
+
 ### Recommanded install 👌
 
 ```console
@@ -20,16 +23,30 @@ $ npm install cssrecipes-utils cssrecipes-grid
 
 ```css
 @import "./node_modules/cssrecipes-custom-media-queries/index.css";
-@import "./node_modules/cssrecipes-utils/index.css";
 @import "./node_modules/cssrecipes-grid/index.css";
+/* all, max (desktop first), min (mobile first) */
+@import "./node_modules/cssrecipes-utils/index.css";
+
+/*
+  Refer to cssrecipes-utils install doc to know more.
+  https://github.com/cssrecipes/utils#install
+
+  Or check examples below.
+*/
 ```
 
 ## Usage
 
-_Advice: you can use size utilities from [`cssrecipes-utils`](http://github.com/cssrecipes/utils) for convenience.  
-It includes `.cssr-(all|min|max)*` classes used in the examples below to define grid cells width._
-
 ### Mobile-first
+
+#### Include deps
+
+```css
+@import "./node_modules/cssrecipes-custom-media-queries/index.css";
+@import "./node_modules/cssrecipes-grid/index.css";
+@import "./node_modules/cssrecipes-utils/all.css";
+@import "./node_modules/cssrecipes-utils/min.css";
+```
 
 #### Define your `Grid` size
 
@@ -68,6 +85,15 @@ It includes `.cssr-(all|min|max)*` classes used in the examples below to define 
 
 ### Desktop-first
 
+#### Include deps
+
+```css
+@import "./node_modules/cssrecipes-custom-media-queries/index.css";
+@import "./node_modules/cssrecipes-grid/index.css";
+@import "./node_modules/cssrecipes-utils/all.css";
+@import "./node_modules/cssrecipes-utils/max.css";
+```
+
 #### Define your `Grid` size
 
 ```css
@@ -104,6 +130,13 @@ It includes `.cssr-(all|min|max)*` classes used in the examples below to define 
 ```
 
 ### Without responsive
+
+#### Include deps
+
+```css
+@import "./node_modules/cssrecipes-grid/index.css";
+@import "./node_modules/cssrecipes-utils/all.css";
+```
 
 #### Define your `Grid` size
 
