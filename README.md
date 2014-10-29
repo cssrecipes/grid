@@ -37,6 +37,16 @@ $ npm install cssrecipes-utils cssrecipes-grid
 
 ## Usage
 
+First of all, you can override all these custom properties according to your needs (here are default values):
+
+```css
+:root {
+  --cssr-Grid-baseFontSize: 1rem;
+  --cssr-Grid-baseFontSizeFallback: 16px;
+  --cssr-Grid-gutter: 0;
+}
+```
+
 ### Mobile-first
 
 #### Include deps
