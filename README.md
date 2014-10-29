@@ -4,14 +4,30 @@
 
 ## Install
 
-```sh
+```console
 $ npm install cssrecipes-grid
+```
+
+```css
+@import "./node_modules/cssrecipes-grid/index.css";
+```
+
+### Recommanded install 👌
+
+```console
+$ npm install cssrecipes-utils cssrecipes-grid
+```
+
+```css
+@import "./node_modules/cssrecipes-custom-media-queries/index.css";
+@import "./node_modules/cssrecipes-utils/index.css";
+@import "./node_modules/cssrecipes-grid/index.css";
 ```
 
 ## Usage
 
-You can use size utilities from [`cssrecipes-utils`](http://github.com/cssrecipes/utils) for
-convenience.
+_Advice: you can use size utilities from [`cssrecipes-utils`](http://github.com/cssrecipes/utils) for convenience.  
+It includes `.cssr-(all|min|max)*` classes used in the examples below to define grid cells width._
 
 ### Mobile-first
 
@@ -115,13 +131,13 @@ convenience.
 
 To generate a build:
 
-```sh
+```console
 $ npm run build
 ```
 
 To generate the testing build.
 
-```sh
+```console
 $ npm run build-test
 ```
 
@@ -131,7 +147,7 @@ Basic visual tests are in `test/index.html`.
 
 Work on a branch, install dev-dependencies, respect coding style & run tests before submitting a bug fix or a feature.
 
-```sh
+```console
 $ git clone https://github.com/cssrecipes/grid.git
 $ git checkout -b patch-1
 $ npm install

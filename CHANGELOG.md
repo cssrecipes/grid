@@ -1,4 +1,4 @@
-# unreleased
+# 0.2.0
 
 - update org prefix to `cssr`
 
