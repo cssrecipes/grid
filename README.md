@@ -117,7 +117,7 @@ First of all, you can override all these custom properties according to your nee
   }
 }
 
-@media (--cssr-minM) {
+@media (--cssr-maxM) {
   .cssr-Grid {
     width: 30em;
   }
