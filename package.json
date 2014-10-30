@@ -14,6 +14,19 @@
     "grid",
     "responsive"
   ],
+  "author": "bloodyowl",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cssrecipes/grid.git"
+  },
+  "homepage": "https://github.com/cssrecipes/grid",
+  "bugs": {
+    "url": "https://github.com/cssrecipes/grid/issues"
+  },
+  "devDependencies": {
+    "cssnext": "^0.4.0"
+  },
   "scripts": {
     "setup": "npm install && mkdir -p build",
     "preprocess": "cssnext index.css build/index.css",
@@ -21,18 +34,5 @@
     "preprocess-test": "cssnext test/test.css build/test.css",
     "build-test": "npm run setup && npm run preprocess-test",
     "test": "npm run build-test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:cssrecipes/grid.git"
-  },
-  "author": "bloodyowl",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/cssrecipes/grid/issues"
-  },
-  "homepage": "https://github.com/cssrecipes/grid",
-  "devDependencies": {
-    "cssnext": "^0.4.0"
   }
 }
