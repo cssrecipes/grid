@@ -4,7 +4,13 @@
   padding: 0;
   margin: 0;
 }
-
+  /* Modifier --gutter */
+  .cssr-Grid--gutter {
+    margin: 0 calc(-0.5 * var(--cssr-Grid-gutter));
+  }
+  .cssr-Grid--gutter > .cssr-Grid-cell {
+    padding: 0 calc(0.5 * var(--cssr-Grid-gutter));
+  }
   .cssr-Grid-cell {
     display: inline-block;
     vertical-align: top;
