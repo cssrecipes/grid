@@ -1,7 +1,7 @@
 :root {
   --cssr-Grid-baseFontSize: 1rem;
   --cssr-Grid-baseFontSizeFallback: 16px;
-  --cssr-Grid-gutter: 0;
+  --cssr-Grid-gutter: 1rem;
 }
 
 .cssr-Grid {
@@ -14,14 +14,15 @@
   .cssr-Grid--withGutter { margin: 0 calc(-0.5 * var(--cssr-Grid-gutter)) }
 
     .cssr-Grid--withGutter > .cssr-Grid-cell { padding: 0 calc(0.5 * var(--cssr-Grid-gutter)) }
-
+    
   .cssr-Grid-cell {
     display: inline-block;
     vertical-align: top;
     font-size: var(--cssr-Grid-baseFontSize, var(--cssr-Grid-baseFontSizeFallback));
     width: 100%;
-    padding: 0 var(--cssr-Grid-gutter);
+    padding: 0;
   }
+
 
     .cssr-Grid-cell--alignTop {vertical-align: top }
     .cssr-Grid-cell--alignMiddle {vertical-align: middle }

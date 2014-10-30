@@ -1,3 +1,7 @@
+# 0.3.1 - 2014-10-30
+
+- fix gutter value
+
 # 0.3.0 - 2014-10-30
 
 - Add `cssr-Grid--withGutter` class for grid with gutter
