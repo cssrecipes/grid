@@ -84,11 +84,11 @@ First of all, you can override all these custom properties according to your nee
 
 ```html
 <div class="cssr-Grid">
-  <div class="cssr-Grid-cell cssr-all-1of2 cssr-minM-1of3 cssr-minL-1of4">
-    <!-- come content-->
+  <div class="cssr-Grid-cell cssr-all--1of2 cssr-minM--1of3 cssr-minL--1of4">
+    <!-- your content-->
   </div>
-  <div class="cssr-Grid-cell cssr-all-1of2 cssr-minM-2of3 cssr-minL-3of4">
-    <!-- come content-->
+  <div class="cssr-Grid-cell cssr-all--1of2 cssr-minM--2of3 cssr-minL--3of4">
+    <!-- your content-->
   </div>
 </div>
 ```
@@ -130,11 +130,11 @@ First of all, you can override all these custom properties according to your nee
 
 ```html
 <div class="cssr-Grid">
-  <div class="cssr-Grid-cell">
-    <!-- come content-->
+  <div class="cssr-Grid-cell cssr-all--1of4 cssr-maxL--1of3 cssr-maxM--1of2">
+    <!-- your content-->
   </div>
-  <div class="cssr-Grid-cell">
-    <!-- come content-->
+  <div class="cssr-Grid-cell cssr-all--3of4 cssr-maxL--2of3 cssr-maxM--1of2">
+    <!-- your content-->
   </div>
 </div>
 ```
@@ -160,11 +160,11 @@ First of all, you can override all these custom properties according to your nee
 
 ```html
 <div class="cssr-Grid">
-  <div class="cssr-Grid-cell cssr-all-1of4">
-    <!-- come content-->
+  <div class="cssr-Grid-cell cssr-all--1of4">
+    <!-- your content-->
   </div>
-  <div class="cssr-Grid-cell cssr-all-3of4">
-    <!-- come content-->
+  <div class="cssr-Grid-cell cssr-all--3of4">
+    <!-- your content-->
   </div>
 </div>
 ```
