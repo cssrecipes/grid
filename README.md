@@ -54,8 +54,8 @@ First of all, you can override all these custom properties according to your nee
 ```css
 @import "./node_modules/cssrecipes-custom-media-queries/index.css";
 @import "./node_modules/cssrecipes-grid/index.css";
-@import "./node_modules/cssrecipes-utils/all.css";
-@import "./node_modules/cssrecipes-utils/min.css";
+@import "./node_modules/cssrecipes-utils/lib/all.css";
+@import "./node_modules/cssrecipes-utils/lib/min.css";
 ```
 
 #### Define your `Grid` size
@@ -100,8 +100,8 @@ First of all, you can override all these custom properties according to your nee
 ```css
 @import "./node_modules/cssrecipes-custom-media-queries/index.css";
 @import "./node_modules/cssrecipes-grid/index.css";
-@import "./node_modules/cssrecipes-utils/all.css";
-@import "./node_modules/cssrecipes-utils/max.css";
+@import "./node_modules/cssrecipes-utils/lib/all.css";
+@import "./node_modules/cssrecipes-utils/lib/max.css";
 ```
 
 #### Define your `Grid` size
@@ -145,7 +145,7 @@ First of all, you can override all these custom properties according to your nee
 
 ```css
 @import "./node_modules/cssrecipes-grid/index.css";
-@import "./node_modules/cssrecipes-utils/all.css";
+@import "./node_modules/cssrecipes-utils/lib/all.css";
 ```
 
 #### Define your `Grid` size
