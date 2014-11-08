@@ -1,6 +1,6 @@
 {
   "name": "cssrecipes-grid",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "description": "BEMish grid component",
   "main": "index.js",
   "keywords": [
