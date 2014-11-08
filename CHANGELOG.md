@@ -1,3 +1,7 @@
+# 0.4.0 - 2014-11-08
+
+- update org prefix to `r`
+
 # 0.3.1 - 2014-10-30
 
 - fix gutter value

@@ -13,7 +13,7 @@ $ npm install cssrecipes-grid
 ```
 
 _Advice: you can use size utilities from [`cssrecipes-utils`](http://github.com/cssrecipes/utils) for convenience.  
-It includes `.cssr-(all|min|max)*` classes used in the examples below to define grid cells width._
+It includes `.r-(all|min|max)*` classes used in the examples below to define grid cells width._
 
 ### Recommanded install 👌
 
@@ -40,10 +40,10 @@ $ npm install cssrecipes-utils cssrecipes-grid
 First of all, you can override all these custom properties according to your needs (here are default values):
 
 ```css
-:roo{
-  --cssr-Grid-baseFontSize: 1rem;
-  --cssr-Grid-baseFontSizeFallback: 16px;
-  --cssr-Grid-gutter: 1rem; /* used for .cssr-Grid--withGutter */
+:root {
+  --r-Grid-baseFontSize: 1rem;
+  --r-Grid-baseFontSizeFallback: 16px;
+  --r-Grid-gutter: 1rem; /* used for .r-Grid--withGutter */
 }
 ```
 
@@ -61,18 +61,18 @@ First of all, you can override all these custom properties according to your nee
 #### Define your `Grid` size
 
 ```css
-.cssr-Grid {
+.r-Grid {
   width: auto;
 }
 
-@media (--cssr-minM) {
-  .cssr-Grid {
+@media (--r-minM) {
+  .r-Grid {
     width: 30em;
   }
 }
 
-@media (--cssr-minL) {
-  .cssr-Grid {
+@media (--r-minL) {
+  .r-Grid {
     width: 50em;
   }
 }
@@ -83,11 +83,11 @@ First of all, you can override all these custom properties according to your nee
 #### Use your grid
 
 ```html
-<div class="cssr-Grid">
-  <div class="cssr-Grid-cell cssr-all--1of2 cssr-minM--1of3 cssr-minL--1of4">
+<div class="r-Grid">
+  <div class="r-Grid-cell r-all--1of2 r-minM--1of3 r-minL--1of4">
     <!-- your content-->
   </div>
-  <div class="cssr-Grid-cell cssr-all--1of2 cssr-minM--2of3 cssr-minL--3of4">
+  <div class="r-Grid-cell r-all--1of2 r-minM--2of3 r-minL--3of4">
     <!-- your content-->
   </div>
 </div>
@@ -107,18 +107,18 @@ First of all, you can override all these custom properties according to your nee
 #### Define your `Grid` size
 
 ```css
-.cssr-Grid {
+.r-Grid {
   width: auto;
 }
 
-@media (--cssr-maxL) {
-  .cssr-Grid {
+@media (--r-maxL) {
+  .r-Grid {
     width: 50em;
   }
 }
 
-@media (--cssr-maxM) {
-  .cssr-Grid {
+@media (--r-maxM) {
+  .r-Grid {
     width: 30em;
   }
 }
@@ -129,11 +129,11 @@ First of all, you can override all these custom properties according to your nee
 #### Use your grid
 
 ```html
-<div class="cssr-Grid">
-  <div class="cssr-Grid-cell cssr-all--1of4 cssr-maxL--1of3 cssr-maxM--1of2">
+<div class="r-Grid">
+  <div class="r-Grid-cell r-all--1of4 r-maxL--1of3 r-maxM--1of2">
     <!-- your content-->
   </div>
-  <div class="cssr-Grid-cell cssr-all--3of4 cssr-maxL--2of3 cssr-maxM--1of2">
+  <div class="r-Grid-cell r-all--3of4 r-maxL--2of3 r-maxM--1of2">
     <!-- your content-->
   </div>
 </div>
@@ -151,7 +151,7 @@ First of all, you can override all these custom properties according to your nee
 #### Define your `Grid` size
 
 ```css
-.cssr-Grid {
+.r-Grid {
   width: 50em;
 }
 ```
@@ -159,11 +159,11 @@ First of all, you can override all these custom properties according to your nee
 #### Use your grid
 
 ```html
-<div class="cssr-Grid">
-  <div class="cssr-Grid-cell cssr-all--1of4">
+<div class="r-Grid">
+  <div class="r-Grid-cell r-all--1of4">
     <!-- your content-->
   </div>
-  <div class="cssr-Grid-cell cssr-all--3of4">
+  <div class="r-Grid-cell r-all--3of4">
     <!-- your content-->
   </div>
 </div>
