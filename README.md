@@ -67,13 +67,13 @@ First of all, you can override all these custom properties according to your nee
 
 @media (--r-minM) {
   .r-Grid {
-    width: 30em;
+    width: 30rem;
   }
 }
 
 @media (--r-minL) {
   .r-Grid {
-    width: 50em;
+    width: 50rem;
   }
 }
 
@@ -113,13 +113,13 @@ First of all, you can override all these custom properties according to your nee
 
 @media (--r-maxL) {
   .r-Grid {
-    width: 50em;
+    width: 50rem;
   }
 }
 
 @media (--r-maxM) {
   .r-Grid {
-    width: 30em;
+    width: 30rem;
   }
 }
 
@@ -152,7 +152,7 @@ First of all, you can override all these custom properties according to your nee
 
 ```css
 .r-Grid {
-  width: 50em;
+  width: 50rem;
 }
 ```
 
