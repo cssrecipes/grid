@@ -200,3 +200,9 @@ $ npm test
 ## [Changelog](CHANGELOG.md)
 
 ## [License](LICENSE)
+
+---
+
+## Acknowledgements
+
+This grid module has been inspired by [SUIT CSS components-grid](https://github.com/suitcss/components-grid) & [SUIT CSS utilities: size](https://github.com/suitcss/utils-size/)
