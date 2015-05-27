@@ -1,0 +1,13 @@
+@import "./lib/base.css";
+
+.r-Grid {
+  display: flex;
+}
+  .r-Grid-cell {
+    display: block;
+    font-size: var(--r-Grid-baseFontSize);
+  }
+
+    .r-Grid-cell--alignTop {margin-bottom: auto }
+    .r-Grid-cell--alignMiddle {margin-top: auto; margin-bottom: auto }
+    .r-Grid-cell--alignBottom {margin-top: auto }
