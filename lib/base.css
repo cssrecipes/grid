@@ -1,0 +1,19 @@
+:root {
+  --r-Grid-baseFontSize: 1rem;
+  --r-Grid-gutter: 1rem;
+}
+
+.r-Grid {
+  padding: 0;
+  margin: 0;
+}
+  /* Modifier --withGutter */
+  .r-Grid--withGutter { margin: 0 calc(-0.5 * var(--r-Grid-gutter)) }
+
+    .r-Grid--withGutter > .r-Grid-cell { padding: 0 calc(0.5 * var(--r-Grid-gutter)) }
+
+  .r-Grid-cell {
+    font-size: var(--r-Grid-baseFontSize);
+    width: 100%;
+    padding: 0;
+  }

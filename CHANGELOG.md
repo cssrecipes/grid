@@ -1,3 +1,7 @@
+# 1.0.0 - 2015-05-30
+
+- added flexbox grid
+
 # 0.4.0 - 2014-11-08
 
 - update org prefix to `r`

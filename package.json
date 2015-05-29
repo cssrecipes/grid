@@ -1,6 +1,6 @@
 {
   "name": "cssrecipes-grid",
-  "version": "0.4.0",
+  "version": "1.0.0",
   "description": "BEMish grid component",
   "keywords": [
     "browser",
@@ -27,14 +27,15 @@
     "CHANGELOG.md",
     "LICENSE",
     "lib",
-    "index.css"
+    "index.css",
+    "flex.css"
   ],
   "devDependencies": {
     "cssnext": "^0.4.0"
   },
   "scripts": {
     "setup": "npm install && mkdir -p build",
-    "preprocess": "cssnext index.css build/index.css",
+    "preprocess": "cssnext index.css build/index.css && cssnext flex.css build/flex.css",
     "build": "npm run setup && npm run preprocess",
     "preprocess-test": "cssnext test/test.css build/test.css",
     "build-test": "npm run setup && npm run preprocess-test",

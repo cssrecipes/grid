@@ -8,9 +8,19 @@
 $ npm install cssrecipes-grid
 ```
 
+Default grid implementation is using inline-block+font-size 0 method:
+
 ```css
 @import "./node_modules/cssrecipes-grid/index.css";
 ```
+
+If you want, an alternative grid based on flexbox is available in cssrecipes-grid/flex.
+
+```css
+@import "./node_modules/cssrecipes-grid/flex.css";
+```
+
+Both rely on same classes, so generic documentation below should works both implementations"
 
 _Advice: you can use size utilities from [`cssrecipes-utils`](http://github.com/cssrecipes/utils) for convenience.  
 It includes `.r-(all|min|max)*` classes used in the examples below to define grid cells width._
@@ -42,7 +52,6 @@ First of all, you can override all these custom properties according to your nee
 ```css
 :root {
   --r-Grid-baseFontSize: 1rem;
-  --r-Grid-baseFontSizeFallback: 16px;
   --r-Grid-gutter: 1rem; /* used for .r-Grid--withGutter */
 }
 ```
