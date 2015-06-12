@@ -31,7 +31,7 @@
     "flex.css"
   ],
   "devDependencies": {
-    "cssnext": "^0.4.0"
+    "cssnext": "^1.6.0"
   },
   "scripts": {
     "setup": "npm install && mkdir -p build",
